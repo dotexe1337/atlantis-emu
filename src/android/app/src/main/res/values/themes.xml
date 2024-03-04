@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.atlantis.Splash.Main" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/atlantis_surface</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_atlantis</item>
+        <item name="postSplashScreenTheme">@style/Theme.atlantis.Main</item>
+    </style>
+
+    <style name="Theme.atlantis.Main" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/atlantis_primary</item>
+        <item name="colorOnPrimary">@color/atlantis_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/atlantis_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/atlantis_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/atlantis_secondary</item>
+        <item name="colorOnSecondary">@color/atlantis_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/atlantis_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/atlantis_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/atlantis_tertiary</item>
+        <item name="colorOnTertiary">@color/atlantis_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/atlantis_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/atlantis_onTertiaryContainer</item>
+        <item name="colorError">@color/atlantis_error</item>
+        <item name="colorErrorContainer">@color/atlantis_errorContainer</item>
+        <item name="colorOnError">@color/atlantis_onError</item>
+        <item name="colorOnErrorContainer">@color/atlantis_onErrorContainer</item>
+        <item name="android:colorBackground">@color/atlantis_background</item>
+        <item name="colorOnBackground">@color/atlantis_onBackground</item>
+        <item name="colorSurface">@color/atlantis_surface</item>
+        <item name="colorOnSurface">@color/atlantis_onSurface</item>
+        <item name="colorSurfaceVariant">@color/atlantis_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/atlantis_onSurfaceVariant</item>
+        <item name="colorOutline">@color/atlantis_outline</item>
+        <item name="colorOnSurfaceInverse">@color/atlantis_inverseOnSurface</item>
+        <item name="colorSurfaceInverse">@color/atlantis_inverseSurface</item>
+        <item name="colorPrimaryInverse">@color/atlantis_inversePrimary</item>
+        <item name="android:shadowColor">@color/atlantis_shadow</item>
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+
+        <item name="sliderStyle">@style/atlantisSlider</item>
+        <item name="materialAlertDialogTheme">@style/atlantisMaterialDialog</item>
+
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+
+        <item name="android:enforceStatusBarContrast">false</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+    </style>
+
+</resources>
